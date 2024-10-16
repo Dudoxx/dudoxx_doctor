@@ -1,0 +1,66 @@
+/* Custom styles for Dudoxx Doctor module */
+
+/* Status Badge Widget */
+.status_badge {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status_badge.bg-success {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.status_badge.bg-danger {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+/* API Key Status Widget */
+.api_key_status {
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.api_key_status.bg-success {
+    background-color: #28a745 !important;
+    color: white;
+}
+
+.api_key_status.bg-danger {
+    background-color: #dc3545 !important;
+    color: white;
+}
+
+.api_key_status.bg-warning {
+    background-color: #ffc107 !important;
+    color: black;
+}
+
+/* Doctor Profile Form */
+.dudoxx_doctor_form .oe_title {
+    margin-bottom: 20px;
+}
+
+.dudoxx_doctor_form .oe_avatar {
+    float: right;
+    margin-left: 20px;
+}
+
+/* API Key Form */
+.dudoxx_api_key_form .oe_title {
+    margin-bottom: 20px;
+}
+
+/* Tree Views */
+.dudoxx_doctor_tree, .dudoxx_api_key_tree {
+    font-size: 14px;
+}
+
+.dudoxx_doctor_tree .o_list_number, .dudoxx_api_key_tree .o_list_number {
+    text-align: right;
+}
